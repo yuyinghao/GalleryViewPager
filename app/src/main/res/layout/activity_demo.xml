@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.xiaoyu.galleryviewpager.demo.DemoActivity">
+
+    <RelativeLayout
+        android:id="@+id/titleicon"
+        android:layout_width="match_parent"
+        android:layout_height="670px"
+        android:clipChildren="false"
+        >
+        <com.xiaoyu.galleryviewpager.library.GalleryViewPager
+            android:id="@+id/gallerdemo"
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="364px"
+            android:layout_marginRight="364px"
+            android:layout_height="wrap_content"></com.xiaoyu.galleryviewpager.library.GalleryViewPager>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
